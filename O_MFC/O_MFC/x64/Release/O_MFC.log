@@ -1,0 +1,49 @@
+﻿Build started 2017/8/24 9:35:13.
+     1>Project "I:\vs2010Project\O_MFC\O_MFC\O_MFC.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "x64\Release\O_MFC.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         F:\vs2010\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"x64\Release\O_MFC.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc100.pdb" /Gd /TP /errorReport:prompt PictureEditeWin.cpp
+         PictureEditeWin.cpp
+     1>F:\opencv\build\include\opencv2/core/mat.hpp(2586): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>F:\opencv\build\include\opencv2/core/persistence.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>F:\opencv\build\include\opencv2/core/mat.hpp(2586): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>F:\opencv\build\include\opencv2/core/utility.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>F:\opencv\build\include\opencv2/core/utility.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>f:\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\vs2010\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>F:\opencv\build\include\opencv2/core/utility.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>F:\opencv\build\include\opencv2/imgproc.hpp(592): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>F:\opencv\build\include\opencv2/imgproc.hpp(592): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>F:\opencv\build\include\opencv2/imgproc.hpp(592): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>F:\opencv\build\include\opencv2/imgproc.hpp(592): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>F:\opencv\build\include\opencv2/imgproc.hpp(592): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>F:\opencv\build\include\opencv2/imgproc.hpp(592): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>F:\opencv\build\include\opencv2/imgproc.hpp(592): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>F:\opencv\build\include\opencv2/imgproc.hpp(592): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>PictureEditeWin.cpp(179): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\vs2010\VC\include\stdio.h(371) : see declaration of 'sprintf'
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         F:\vs2010\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"I:\vs2010Project\O_MFC\x64\Release\O_MFC.exe" /INCREMENTAL:NO /NOLOGO opencv_world320.lib opencv_world320d.lib /MANIFEST /ManifestFile:"x64\Release\O_MFC.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"I:\vs2010Project\O_MFC\x64\Release\O_MFC.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"I:\vs2010Project\O_MFC\x64\Release\O_MFC.lib" /MACHINE:X64 x64\Release\O_MFC.res
+         x64\Release\O_MFC.obj
+         x64\Release\O_MFCDlg.obj
+         x64\Release\PaintTypeWin.obj
+         x64\Release\PictureEditeWin.obj
+         x64\Release\PictureNameWin.obj
+         x64\Release\stdafx.obj
+         Generating code
+         Finished generating code
+         O_MFC.vcxproj -> I:\vs2010Project\O_MFC\x64\Release\O_MFC.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"I:\vs2010Project\O_MFC\x64\Release\O_MFC.exe;#1" /manifest x64\Release\O_MFC.exe.intermediate.manifest F:\vs2010\VC\Include\Manifest\dpiaware.manifest
+       FinalizeBuildStatus:
+         Deleting file "x64\Release\O_MFC.unsuccessfulbuild".
+         Touching "x64\Release\O_MFC.lastbuildstate".
+     1>Done Building Project "I:\vs2010Project\O_MFC\O_MFC\O_MFC.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.91
